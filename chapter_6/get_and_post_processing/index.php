@@ -15,8 +15,12 @@
       <li><a href="get-request.php/?city=New+York+City">New York City</a></li>
     </ul>
   <h2>Post Request</h2>
-  <form action="post-request.php">
-
+  <form action="post-request.php" method="post">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"/>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password"/>
+    <button type="submit" name="submit">Submit</button>
   </form>
 
   
